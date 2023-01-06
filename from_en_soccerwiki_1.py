@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 def parse_table(table, col):
     # выбор указанных тегов с условием. на выходе список тегов
     # в данном случае выбираем второй тег (т.е. вторую колонку таблицы) с class=text-left
@@ -34,4 +35,3 @@ stadiums = parse_table(table, 4)
 print(stadiums)
 locations = parse_table(table, 5)
 print(locations)
-
