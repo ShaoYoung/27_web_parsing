@@ -1,3 +1,4 @@
+# названия, тренеры, стадионы, местоположение клубов АПЛ
 from bs4 import BeautifulSoup
 import requests
 
